@@ -1,0 +1,16 @@
+NAME
+	tuls
+
+SYNOPSIS
+	void recursive_dir(int indent, char *pathname);
+
+DESCRIPTION
+	The tuls command lists out all the files and directories in the current directory
+	or in a specified directory and other directories located within that directory using
+	recursion.
+
+RETURN VALUE
+	The tuls command returns a list of directories and files
+
+ERRORS
+	tuls: cannot open directory - The directory is invalid/doesn't exist
